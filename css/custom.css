@@ -1,0 +1,147 @@
+
+
+/* X-small device portrait phone */
+@media(max-width:575.98px){
+  .nav-item a::after{
+    left: 190px;
+   
+  }
+  
+}
+/* Small device landscape phone */
+@media(min-width:576px) and (max-width:767.98px){
+  .nav-item a::after{
+    left: 200px;   
+  }
+}
+/* Common (X-small + Small) device phone */
+@media(max-width:767.98px){
+  .menu-bg{
+    background-color:#95e1d3;
+  }
+  .menu-bg i{
+    color: #fff;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: #fff;
+    color: transparent;
+}
+.navbar-collapse {
+  text-align: center;
+}
+
+.banner .col-lg-8 {
+  height: 200px;
+}
+.banner .ban-text h3{
+  margin-top: 40px;
+  font-size: 50px; 
+}
+.banner .ban-text h2{
+  font-size:75px;
+}
+.banner .btn button{
+  padding: 10px 25px;
+  font-size:14px;
+}
+.ban-img1{
+  height: 800px;
+}
+.ban-img2 {
+  height: 800px;
+}
+.ban-img3 {
+  height: 800px;
+}
+.about .about-images {
+  margin: 50px 0px;
+}
+.about .overflow {
+  margin-top: 50px;
+}
+
+.counter-part {
+  margin-top: 875px;
+}
+.para .para-text{
+  margin-top: 50px;
+}
+.para .prev {
+  top: 60%;
+  left: 30px;
+}
+.para .next {
+  top: 60%;
+  right: 30px;
+}
+.work .work-img {
+  margin-top: 50px;
+}
+
+}
+/* Medium device tablet */
+@media(min-width:768px) and (max-width:991.98px){
+.menu-bg{
+    background-color:#95e1d3;
+  }
+.menu-bg i{
+    color: #fff;
+  }
+.navbar-light .navbar-toggler {
+    border-color: #fff;
+    color: transparent;
+  }
+.navbar-collapse {
+  text-align: center;
+  }
+.nav-item a::after{
+    left: 307px;
+   
+  }
+.banner .col-lg-8 {
+    height: 200px;
+  }
+.banner .ban-text h3{
+    margin-top: 40px;
+    font-size: 50px; 
+  }
+.banner .ban-text h2{
+    font-size:75px;
+  }
+.banner .btn button{
+    padding: 10px 25px;
+    font-size:14px;
+  }
+.about .about-images {
+    margin: 50px 0px;
+  }
+.about .overflow {
+    margin-top: 50px;
+  }
+
+.counter-part {
+  margin-top: 1175px;
+}
+.para .para-text{
+  margin-top: 50px;
+}
+.para .prev {
+  top: 63%;
+  left: 30px;
+}
+.para .next {
+  top: 63%;
+  right: 30px;
+}
+.work .work-img {
+  margin-top: 50px;
+}
+}
+/* Large devices desktops */
+@media(min-width:992px) and (max-width:1199.98px){
+
+}
+/* X-Large devices desktops */
+@media(min-width:1200px) and (max-width:1399.98px){
+
+}
